@@ -1,75 +1,62 @@
-# React + TypeScript + Vite
+🚀 Simple Space Shooter (React + TypeScript + Vite + Tailwind)
+==============================================================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small browser-based space shooter game built to practice **TypeScript + React** logic, **state handling**, **custom hooks**, and **keyboard controls**.The player controls a ship at the bottom of the screen and shoots down enemies that appear randomly at the top.
 
-Currently, two official plugins are available:
+🎮 Controls
+-----------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key: Action
 
-## React Compiler
+**A:** Move Left
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+**D:** Move Right
 
-Note: This will impact Vite dev & build performances.
+**F:** Fire Bullet
 
-## Expanding the ESLint configuration
+✨ Features
+----------
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*   🟦 Player ship movement (left/right)
+    
+*   🎯 Shooting bullets upward
+    
+*   👾 Random enemy spawn & respawn
+    
+*   💥 Bullet-to-enemy collision detection
+    
+*   🏆 Score tracking
+    
+*   Responsive Design for mobile
+    
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🧱 Tech Stack
+-------------
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Tool Purpose
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**React:** UI + game loop logic
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**TypeScript:** Type-safe gameplay logic
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Vite:** Fast dev environment
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Tailwind CSS:** Quick UI layout and styling
+
+📦 Getting Started
+------------------
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   # Clone the project  git clone https://github.com/umarhassan-svg/Simple-SpaceShooter.git  cd Simple-SpaceShooter  # Install dependencies  npm install  # Start development server  npm run dev   `
+
+✅ Future Enhancements (If You Want to Continue)
+-----------------------------------------------
+
+*   Multiple enemies
+    
+*   Enemy movement
+    
+*   Explosion animations
+    
+*   Health / lives system
+    
+*   Sound effects
