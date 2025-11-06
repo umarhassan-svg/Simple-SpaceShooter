@@ -45,9 +45,17 @@ Tool Purpose
 
 📦 Getting Started
 ------------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   # Clone the project  git clone https://github.com/umarhassan-svg/Simple-SpaceShooter.git  cd Simple-SpaceShooter  # Install dependencies  npm install  # Start development server  npm run dev   `
-
+```
+    # Clone the project
+    git clone https://github.com/umarhassan-svg/Simple-SpaceShooter.git
+    cd Simple-SpaceShooter
+    
+    # Install dependencies
+    npm install
+    
+    # Start development server
+    npm run dev   `
+```
 ✅ Future Enhancements (If You Want to Continue)
 -----------------------------------------------
 
